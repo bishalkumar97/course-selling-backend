@@ -2,7 +2,7 @@
 const mongoose = require("mongoose");
 
 //Creating the connection
-mongoose.connect("mongodb+srv://2101020064:YHIYoSPkoLi2IPNn@cluster0.2xlhdpn.mongodb.net/Course_Web");
+mongoose.connect("url");
 
 //Defining the Admin Schema
 const AdminSchema = new mongoose.Schema({
